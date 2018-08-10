@@ -1,0 +1,29 @@
+
+
+$ git config --global user.email diegourbina1284@gmail.com  --> creo variable global user.email
+
+$ git clone https://github.com/l4ner0/AnalisisPuntaje.git --> clono el repositorio AnalisisPuntaje
+
+$ git add archivo.extension  --> añado un archivo
+
+$git commit -m "esto es un comentario"  --> comento los archivos añadidos
+
+$git remote add nombreCualquiera https://github.com/l4ner0/AnalisisPuntaje.git
+
+$git push nombreCualquiera master --> subo los archivos añadidos
+
+$git branch (lista las ramas)
+
+$git branch nombreRama (crea una nueva rama)
+
+$git checkout nombreRama (se activa la rama nombreRama)
+
+$git branch nombreRama -D (elimina la rama)
+
+
+$ git clone git://github.com/schacon/grit.git
+
+$ git pull nombreCualquiera master --> guarda cambios realizados desde el repositorio remoto  (local)
+
+$ git rebase master (combina la rama con el master) (cabe acotar q una vez combinada la rama con el master esta se debe actualizar con un pull origin nombre_rama)
+
